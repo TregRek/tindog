@@ -4,7 +4,7 @@ body {
 
 h1{
     font-family: 'Montserrat-Black', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 900;
     line-height: 1.5;
 }
@@ -17,6 +17,8 @@ h1{
 .container-fluid {
     padding: 3% 15%;
 }
+
+/* Navigation Bar */
 
 .navbar{
     padding: 0 0 4.5rem;
@@ -37,12 +39,83 @@ h1{
     font-size: 1.2rem;
 }
 
+/* Title image */
 
 .iphone-img{
     width: 60%;
     transform: rotate(25deg);
 }
 
+/* Button */
+
 .download-btn {
     margin: 5% 3% 5% 0;
 }
+
+/* Features */
+
+.features-heading {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 800;
+}
+
+.features-icon {
+    color: #ef8172;
+}
+
+.features-icon:hover {
+    color: #ff4c68;
+}
+
+.feat {
+    text-align: center;
+    padding: 0;
+}
+
+.features-p {
+    color: #8f8f8f;
+    padding: 4.5%;
+}
+
+#features {
+    padding: 7% 15%;
+}
+
+/* Testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonials-heading{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
